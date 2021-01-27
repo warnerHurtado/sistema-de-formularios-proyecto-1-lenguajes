@@ -1,0 +1,41 @@
+Prelude> :
+
+Prelude> :q
+Para salirme haskell
+
+ghci HelloWorld.hs 
+Para correr
+
+:r
+Para recargar
+
+:t y nombre de la variable para que diga el tipo TAMBIÉN ME SIRVE CON LAS FUNCIONESG
+
+ghc crear un archvio pongo eso el nombre y extención, así: 
+ghc -o main (nombreDelArchivo).hs
+ghc (nombreDelArchivo).hs
+ghc nombreDelArchivo
+
+
+map (+ 2) [1 .. 5]
+ [3,4,5,6,7]
+
+ Prelude> fst (1, 2)
+ 1
+ Prelude> snd (1, 2)
+ 2
+ Prelude> map fst [(1, 2), (3, 4), (5, 6)]
+ [1,3,5]
+
+[UnaPelicula {tituloPelicula = "Pulp Fiction", directorPelicula = "Quentin Tarantino", actores = ["John Travolta","Uma Thurman","Samuel L. Jackson"], anioEstreno
+ = 1994, puntajesPelicula = [9,10,9]},UnaPelicula {tituloPelicula = "Fight Club", directorPelicula = "David Fincher", actores = ["Brad Pitt","Edward Norton",
+"Helena Bonham Carter"], anioEstreno = 1999, puntajesPelicula = [8,8,8,9,9,10]},UnaPelicula {tituloPelicula = "Pedornia", directorPelicula = "Andrew Adamson",
+ actores = ["Tilda Swinton","Georgie Henley","William Moseley"], anioEstreno = 2005, puntajesPelicula = [0,0,-3,-666]}]
+
+
+            map (tituloEncuesta) listForms
+
+ctrl k ctrl c comentar
+ctrl alt y flechas para borrar todo
+
+print (map (\ x -> map (\ y -> y) (preguntas x)) param)
